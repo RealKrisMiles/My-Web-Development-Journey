@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Lets learn it</title>
+</head>
+<body>
+    <h1> Form to apply for TA</h1>
+    <form action="post">
+        <label for="username">Enter your user name :</label>
+        <input type="text" id="username" name="Username" placeholder="Enter your username" autofocus pattern="[a-zA-Z]+">
+    <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+    </div>
+
+    <div>
+        <h1> choose your poison </h1>
+        <input type="checkbox" name="share" id="subscribe"
+        value="yes">
+        <label for="subscribe">subscribe</label>
+        <input type="checkbox" name="share" id="share"
+        value="yes">
+         <label for="share">share</label>
+        <input type="checkbox" name="share" id="like"
+        value="yes">
+        <label for="like">like</label>
+    </div>
+    <div>
+        <label for="comment">enter your comment</label>
+        <br>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="enter your comment"></textarea>
+    </div>
+    <div>
+        <select name="fruits" id="options" placeholder="Look">
+            <option value="apple">apple</option>
+            <option value="banana">banana</option>
+            <option value="orange">orange</option>
+            <option value="grape">grape</option>
+
+        </select>
+    </div>
+
+    </form>
+    
+</body>
+</html>
