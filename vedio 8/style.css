@@ -1,0 +1,19 @@
+p{
+    background-color: rgb(166, 166, 213);
+}
+a{
+    background-color: rgb(233, 148, 148);
+}
+div{
+    background-color: rgb(25, 238, 238);
+    ;
+}
+th{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+}
+span{
+    background-color: black;
+}
